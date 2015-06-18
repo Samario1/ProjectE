@@ -58,7 +58,7 @@ public class LifeStone extends RingToggle implements IBauble, IPedestalItem
 				PlayerTimers.activateHeal(player);
 
 				if (player.getHealth() < player.getMaxHealth() && PlayerTimers.canHeal(player)) {
-					if(classicLifeStone == false)
+					if(!ProjectEConfig.classicLifeStone)
 					{
 					world.playSoundAtEntity(player, "projecte:item.peheal", 1.0F, 1.0F);
 					player.heal(2.0F);
