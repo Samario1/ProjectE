@@ -1,3 +1,7 @@
+###Version 1.7.10-PS0.0.1
+* NEW: Config option to change Life Stone's functionality
+* UNFIXED: General health derps (under a config option)
+
 ###Version 1.7.10-PE1.6.0
 * NEW: Void Ring
 * NEW: German language file updates
